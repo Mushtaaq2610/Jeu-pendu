@@ -113,9 +113,6 @@ char hint(char z)
     caractere = z; // On lit le premier caractère
     caractere = toupper(caractere); // On met la lettre en majuscule si elle ne l'est pas déjà
 
-    // On lit les autres caractères mémorisés un à un jusqu'à l'\n
-    while (getchar() != '\n') ;
-
     return caractere; // On retourne le premier caractère qu'on a lu
 }
 

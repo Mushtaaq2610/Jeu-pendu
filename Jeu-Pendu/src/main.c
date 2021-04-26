@@ -95,37 +95,6 @@ int main(int argc, char* argv[])
                                 }
 
 
-
-                              
-
-            
-
-       
-
-        
-        
-        //Section Hint
-        
-                      
-
-               
-               
-                 
-  
-
-        
-
-            
-            /*strncmp("exit", buff, 4) == 0
-             if(strcmp(z,"HELP") == 0 ){
-
-                printf("%c\n", motSecret[1]);
-
-            }*/
-
-        
-
-
         // Si ce n'était PAS la bonne lettre
         if (!rechercheLettre(lettre, motSecret, lettreTrouvee))
         {
