@@ -9,6 +9,7 @@ Avant de commencer, nous alons cloné le travail du projet en local dans notre t
 git clone https://github.com/Mushtaaq2610/Jeu-pendu_Bhooto_Antoaroo.git
 cd Jeu-pendu_Bhooto_Antoaroo
 cd Jeu-Pendu
+mkdir bin
 cd bin
 cmake ..
 make
